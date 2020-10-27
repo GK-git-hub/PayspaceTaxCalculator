@@ -10,7 +10,9 @@ To generate the swagger definitions
 URL https://localhost:5001/swagger/index.html
 
 The url will present you with the Swagger dashboard:
-#Options:
+
+## Options: ##
+
 CalculateTax
 FetchTaxCalculation
 ---
@@ -23,19 +25,19 @@ postalCode : string
 
 When the dashboard loads, please expand call, insert property values and Execute call.
 
-#Serilog
+###### Serilog
 Serilog implementation is dane and can be managed to write to required databases (SEQ, Application Insights etc)
 
 
-#Notes
+###### Notes
 Notes are made throughout the solution with possible recommendations and refactoring options.
 
 
-#Testing
+###### Testing
 Nunit Implementation is done, but did not complete tests due to time constraints
 
-#Solution Structure
-#RestAPI
+##### Solution Structure
+###### RestAPI
 Application :   Contains Handlers and Requests
 Constants:      Class for types of calculations
 Contracts:      Models and Responses
@@ -48,7 +50,7 @@ README.md
 Startup.cs
 
 
-#RestAPI.DataAccess
+###### RestAPI.DataAccess
 DataServices:           SQL query designer and base query
 DataTransferObjects:    DTO's for the responses
 QueryProvider:          Interface and class for the QueryProviders
@@ -56,7 +58,7 @@ QueryProvider:          Interface and class for the QueryProviders
                                           - to purely execute a void
                                           - to receive an array back (would be used to return the whole list of types)
  
-#RestAPITests
+###### RestAPITests
 FetchCalculationTypeTests:  A mock test.
 
 
