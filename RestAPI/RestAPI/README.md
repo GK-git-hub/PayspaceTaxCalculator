@@ -37,7 +37,7 @@ Notes are made throughout the solution with possible recommendations and refacto
 Nunit Implementation is done, but did not complete tests due to time constraints
 
 #Solution Structure
-#####RestAPI
+#RestAPI
 Application :   Contains Handlers and Requests
 Constants:      Class for types of calculations
 Contracts:      Models and Responses
@@ -50,7 +50,7 @@ README.md
 Startup.cs
 
 
-#####RestAPI.DataAccess
+#RestAPI.DataAccess
 DataServices:           SQL query designer and base query
 DataTransferObjects:    DTO's for the responses
 QueryProvider:          Interface and class for the QueryProviders
@@ -58,7 +58,7 @@ QueryProvider:          Interface and class for the QueryProviders
                                           - to purely execute a void
                                           - to receive an array back (would be used to return the whole list of types)
  
-#####RestAPITests
+#RestAPITests
 FetchCalculationTypeTests:  A mock test.
 
 
