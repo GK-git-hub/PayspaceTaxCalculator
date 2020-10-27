@@ -23,8 +23,6 @@ postalCode : string
 
 When the dashboard loads, please expand call, insert property values and Execute call.
 
----
-
 #Serilog
 Serilog implementation is dane and can be managed to write to required databases (SEQ, Application Insights etc)
 
